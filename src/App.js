@@ -1,16 +1,12 @@
-
-import React from 'react';
-import Header from './Header';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <Main />
+      <Navbar />
+      <Routing />
       <Footer />
     </>
   );
